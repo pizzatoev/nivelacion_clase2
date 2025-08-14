@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/inicio_salar">
+
+
+
+
+    <LinearLayout
+        android:id="@+id/loginContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="24dp">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_marginTop="28dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:text="Lista de Usuarios"
+            android:textAlignment="center"
+            android:textSize="35sp"
+            />
+
+        <TextView
+            android:id="@+id/tvRecuperar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="Bienvenido, ya formas nuestra comunidad!"
+            android:textAlignment="center"
+            android:textSize="14sp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="328dp"
+            android:layout_marginBottom="50dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edtContra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="12dp"
+                android:hint=""
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/edtCorreo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:hint=""
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/edtCorreo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:hint=""
+                android:padding="10dp" />
+        </LinearLayout>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnRegistrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registrar"
+            android:background="@drawable/button_enviar"
+            android:padding="12dp" />
+        <TextView
+            android:id="@+id/tvMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="Ir a Menú Principal"
+            android:textAlignment="center"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+</LinearLayout>
